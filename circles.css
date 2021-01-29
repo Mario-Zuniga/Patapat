@@ -1,0 +1,13 @@
+/* Width and height in canvas will extend to entire screen */
+canvas {
+    width: 100%;
+    height: 100%;   
+}
+
+/* Extenstion of height and reduction of margin will give
+   the screen the missing extra margin at the end */
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
